@@ -1,0 +1,53 @@
+:root {
+	--scrollbarBackground: #ccc;
+  --thumbBackground: #66aa66;
+  --textSize: 12px;
+}
+
+::-webkit-scrollbar {
+	width: var(--textSize);
+}
+
+::-webkit-scrollbar-track {
+	background: var(--scrollbarBackground);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--thumbBackground);
+}
+
+::-moz-scrollbar {
+	width: var(--textSize);
+}
+
+::-moz-scrollbar-track {
+	background: var(--scrollbarBackground);
+}
+
+::-moz-scrollbar-thumb {
+	background-color: var(--thumbBackground);
+}
+
+::-ms-scrollbar{
+	width: var(--textSize);
+}
+
+::-ms-scrollbar-track {
+	background: var(--scrollbarBackground);
+}
+
+::-ms-scrollbar-thumb {
+	background-color: var(--thumbBackground);
+}
+
+::-o-scrollbar {
+	width: var(--textSize);
+}
+
+::-o-scrollbar-track {
+	background: var(--scrollbarBackground);
+}
+
+::-o-scrollbar-thumb {
+	background-color: var(--thumbBackground);
+}
